@@ -18,6 +18,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/Gulasch4ever/android-BasicGestureDetect" in assert(Github.exists(lbalo,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for László Balódoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(lbalo.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(lbalo.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(lbalo.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(lbalo.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(lbalo.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -31,6 +34,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/SuperCari/android-BasicGestureDetect" in assert(Github.exists(ccoelestin,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Carina Cölestindoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(ccoelestin.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(ccoelestin.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(ccoelestin.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(ccoelestin.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(ccoelestin.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -44,6 +50,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/dirnbaue14/android-BasicGestureDetect" in assert(Github.exists(cdirnbauer,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Christoph Dirnbauer-Karnerdoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(cdirnbauer.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(cdirnbauer.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(cdirnbauer.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(cdirnbauer.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(cdirnbauer.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -57,6 +66,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/haxhaagn15/android-BasicGestureDetect" in assert(Github.exists(ahaxha,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Agnesa Haxhadoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(ahaxha.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(ahaxha.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(ahaxha.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(ahaxha.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(ahaxha.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -70,6 +82,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/HribernigNikolaus/android-BasicGestureDetect" in assert(Github.exists(nhribernig,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Nikolaus Hribernigdoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(nhribernig.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(nhribernig.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(nhribernig.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(nhribernig.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(nhribernig.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -83,6 +98,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/jashanic14/android-BasicGestureDetect" in assert(Github.exists(ljashanica,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Labinot Jashanicadoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(ljashanica.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(ljashanica.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(ljashanica.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(ljashanica.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(ljashanica.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -96,6 +114,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/andikay/android-BasicGestureDetect" in assert(Github.exists(akrejan,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Andreas Krejandoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(akrejan.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(akrejan.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(akrejan.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(akrejan.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(akrejan.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -109,6 +130,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/dominikkrueger/android-BasicGestureDetect" in assert(Github.exists(dkrueger,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Dominik Krügerdoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(dkrueger.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(dkrueger.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(dkrueger.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(dkrueger.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(dkrueger.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -122,6 +146,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/VeeLeifert/android-BasicGestureDetect" in assert(Github.exists(vleifert,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Verena Leifertdoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(vleifert.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(vleifert.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(vleifert.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(vleifert.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(vleifert.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -135,6 +162,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/davidm15/android-BasicGestureDetect" in assert(Github.exists(dmischak,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for David Mischackdoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(dmischak.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(dmischak.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(dmischak.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(dmischak.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(dmischak.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -148,6 +178,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/tneuhold/android-BasicGestureDetect" in assert(Github.exists(tneuhold,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Teresa Neuholddoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(tneuhold.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(tneuhold.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(tneuhold.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(tneuhold.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(tneuhold.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -161,6 +194,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/epanholzer/android-BasicGestureDetect" in assert(Github.exists(epanholzer,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Elisabeth Panholzerdoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(epanholzer.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(epanholzer.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(epanholzer.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(epanholzer.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(epanholzer.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -174,6 +210,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/x-qlusive/android-BasicGestureDetect" in assert(Github.exists(pplank,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Patrick Plankdoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(pplank.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(pplank.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(pplank.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(pplank.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(pplank.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
@@ -187,6 +226,9 @@ class Gruppe_BSpec extends WordSpec {
           "have a repository named http://github.com/FlorianReinprecht/android-BasicGestureDetect" in assert(Github.exists(freinprecht,"android-BasicGestureDetect"), "Github repository 'android-BasicGestureDetect' for Florian Reinprechtdoes not exist!")
           "have not committed local.properties" in assert(!Github.exists(freinprecht.fileIn("android-BasicGestureDetect", "local.properties")))
           "have a .gitignore file commited" in assert(Github.exists(freinprecht.fileIn("android-BasicGestureDetect", ".gitignore")))
+          "BasicGestureDetectFragment.scala" in assert(Github.exists(freinprecht.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/BasicGestureDetectFragment.scala")))
+          "GestureListener.scala" in assert(Github.exists(freinprecht.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/GestureListener.scala")))
+         "MainActivity.scala" in assert(Github.exists(freinprecht.fileIn("android-BasicGestureDetect","Application/src/main/scala/com/example/android/basicgesturedetect/MainActivity.scala")))
        }
      }
       
